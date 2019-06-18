@@ -1,0 +1,45 @@
+// Sample of the json format to be used to push data to MongoDB
+// lectionary data: Date, Lectionary date, Readings
+// Reading: (Book, chapter, verses), Link, Hymn Suggestions
+// Suggestions: Hymn number, Title
+
+{
+  "date": "Sunday 28 July, 2019",
+  "lectionary_date": "13th Sunday in Ordinary Time",
+  "readings" : [
+    {
+      "book": "Hosea",
+      "chapter_and_verse": "1:2-10",
+      "link": "http://bible.oremus.org/?ql=237343388",
+      "suggested_hymns": [
+        {
+          "title" : "Give voice to the prophets who speak the hard word",
+          "hymn_number" : None,
+          "link" : "https://singingthefaithplus.org.uk/?p=6136"
+        },
+        {
+          "title" : "God of forgiveness, your people you freed",
+          "hymn_number" : 425,
+          "link" : "https://singingthefaithplus.org.uk/?p=2251"
+        }
+      ],
+    },
+    {
+      "book": "Psalm",
+      "chapter_and_verse": "85",
+      "link": "http://bible.oremus.org/?ql=237343406",
+      "suggested_hymns": [
+        {
+          "title" : "Father, we have sinned in word, and thought, and deed",
+          "hymn_number" : 422,
+          "link" : "https://singingthefaithplus.org.uk/?p=2388"
+        },
+        {
+          "title" : "Let all mortal flesh keep silence",
+          "hymn_number" : 591,
+          "link" : "https://singingthefaithplus.org.uk/?p=1643"
+        }
+      ],
+    }
+  ]
+}
